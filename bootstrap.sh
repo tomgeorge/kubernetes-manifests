@@ -1,4 +1,4 @@
 #!/bin/zsh
 set -o errexit
 ./helm/set-up-helm.sh
-./hello-world/set-up-nginx.sh
+./nginx-ingress/set-up-nginx.sh
