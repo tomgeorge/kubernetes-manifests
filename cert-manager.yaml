@@ -94,7 +94,7 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: user@example.com
+    email: tg82490@gmail.com
     privateKeySecretRef:
       name: letsencrypt
     http01: {}
