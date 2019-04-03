@@ -3,14 +3,15 @@ kind: Istio
 metadata:
   labels:
     controller-tools.k8s.io: "1.0"
-  name: istio-sample
+  name: istio
+  namespace: istio-system
 spec:
   version: "1.1.1"
   mtls: true
   includeIPRanges: "*"
   excludeIPRanges: ""
   autoInjectionNamespaces:
-  - "istio-system"
+  - "default"
   controlPlaneSecurityEnabled: false
   sds:
     enabled: false
