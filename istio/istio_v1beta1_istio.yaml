@@ -10,7 +10,7 @@ spec:
   includeIPRanges: "*"
   excludeIPRanges: ""
   autoInjectionNamespaces:
-  - "default"
+  - "istio-system"
   controlPlaneSecurityEnabled: false
   sds:
     enabled: false
